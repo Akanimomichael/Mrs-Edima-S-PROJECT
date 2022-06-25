@@ -56,12 +56,26 @@ border-radius: 10px;
     
     top: 100px;
 } */
-.form{
-    height: 64px;
+.form{position: absolute;
     width: 381px;
-    left: 12%;
-    top: 80px;
+    height: 64px;
+    left: 120px;
+    top: 100px;
+    
 }
+.side-image{
+    position: absolute;
+width: 410px;
+float: right;
+height: 374px;
+left: 590px;
+top: -150px;
+}
+.image{
+    width: 160% ;
+    height: 190%;
+}
+
 .image-form{
     height: 73%;
     float: right;
