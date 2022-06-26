@@ -97,28 +97,29 @@
         <nav class="navbar-light" >
           <ul class="navbar-nav">
             <li style="transition: all 1s ease; ">
-              <a href="#" class="nav-link px-3 active">
+               <a href="synchronize.html" class="nav-link px-3 active">
                 <span class="me-2"><i class="bi bi-house-door"></i></span>
                 <span>Home</span>
+
               </a>
             </li>
            
             <li>
-              <a href="#" class="nav-link px-3">
+              <a href="table.html" class="nav-link px-3">
                 <span class="me-2"><i class="bi bi-book"></i></span>
                 <span>Payment</span>
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link px-3">
+              <a href="payment.html" class="nav-link px-3">
                 <span class="me-2"><i class="bi bi-pencil-square"></i></span>
-                <span>Client</span>
+                <span>Upload Payment</span>
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link px-3">
+              <a href="feednews.html" class="nav-link px-3">
                 <span class="me-2"><i class="bi bi-chat"></i></span>
-                <span>Frequent Comment</span>
+                <span>News Feeds</span>
               </a>
             </li>
             <li>
@@ -128,7 +129,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link px-3">
+              <a href="login.html" class="nav-link px-3">
                 <span class="me-2"><i class="bi bi-box-arrow-right"></i></span>
                 <span>Sign Out</span>
               </a>
@@ -165,6 +166,7 @@
                       <button
                         for="inputGroupFile01"
                         class="btn btn-primary button-payment mb-3"
+                        onclick="event.preventDefault(); location.href='table.html'"
                       >
                         Upload payment file
                       </button>

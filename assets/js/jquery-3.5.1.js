@@ -2219,7 +2219,7 @@ Expr = Sizzle.selectors = {
 			return !Expr.pseudos[ "empty" ]( elem );
 		},
 
-		// Element/input types
+		// Element</input types
 		"header": function( elem ) {
 			return rheader.test( elem.nodeName );
 		},

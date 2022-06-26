@@ -282,6 +282,11 @@ color: #8C8C8C;*/
   margin-top: 30px;
   max-width: 100%;
 }
+.card-section1 {
+  border-left: 1px solid #e8e8e8;
+  margin-top: 30px;
+  max-width: 100%;
+}
 .title-text {
   /* position: absolute; */
   width: 275px;

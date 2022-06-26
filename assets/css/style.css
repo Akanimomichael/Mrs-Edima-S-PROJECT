@@ -57,13 +57,13 @@ button {
   position: relative;
 font-family: 'Public Sans';
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 color: #595959;
 /* padding-bottom: ; */
 margin-left: 20px;
-margin-bottom:40px;
+margin-bottom:9px;
 transition: all 1s ease;
 /* height: 0px; */
 }
@@ -71,8 +71,14 @@ transition: all 1s ease;
   background: #e6f7ff;
   border-right: 5px solid #36a0d1;
   font-size:20px ;
-  font-weight: 700;
+  font-weight: 00;
   /* height: 40px; */
+}
+#sidebar #side-nav nav ul li:active{
+  background: #e6f7ff;
+  border-right: 5px solid #36a0d1;
+  font-size:20px ;
+  font-weight: 00;
 }
 
 #main-body {
@@ -430,6 +436,14 @@ color: #8C8C8C;*/
 
   box-shadow: 24px 18px 69px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
+}
+.link-shaggi{
+  text-decoration: none;
+
+}
+.link-shaggi:hover{
+color: #252117;
+  text-decoration: underline;
 }
 .text p {
   /* position: absolute; */
