@@ -123,6 +123,76 @@ margin-top: 5%;
   font-size: 14px;
   line-height: 21px;
 }
+.fan-card{
+  height: 132px;
+/* left: 279px;
+top: 485px; */
+background: #FFFFFF;
+border: 1px solid #D6E4FF;
+box-shadow: 24px 18px 69px rgba(60, 52, 52, 0.07);
+border-radius: 10px;
+}
+.fan-card .card-inner .card-text{
+  margin-left: 10px;
+  padding: 2px;
+}
+.fan-card .card-inner .card-text h5{
+  width: 193px;
+height: 32px;
+left: 956px;
+top: 503px;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #262626;
+}
+.fan-card .card-inner .card-text p{
+  left: 66.6%;
+right: 11.67%;
+top: 32.21%;
+bottom: 64.13%;
+padding-right: 10px;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11.6px;
+line-height: 20px;
+color: #8C8C8C;
+}
+.fan-card .card-inner .btn{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 25px;
+gap: 4px;
+width: 84px;
+height: 44px;
+background: #487DF2;
+border-radius: 4px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.fan-card .card-inner .btn p{
+  width: 34px;
+height: 24px;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
 /* .search-box {
   background: #efefef;
   width: 240px;
